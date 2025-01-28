@@ -1,0 +1,30 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+
+body {
+    
+}
+
+main {
+    min-height: 100vh;
+    background-image: url("https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.custom-form {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    input {
+        margin-block: 10px;
+    }
+    section {
+    margin-block: 20px;
+    }
+}
+
